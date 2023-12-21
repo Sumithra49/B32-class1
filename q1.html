@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello Regex Form</title>
+</head>
+<body>
+
+  <form action="#" method="post">
+    <label for="textInput">Enter Text:</label>
+    <input type="text" id="textInput" name="textInput" pattern="hello" title="Input should contain the word 'hello'" required>
+    
+    <label for="textInput1">Enter Text:</label>
+    <input type="text" id="textInput1" name="textInput" pattern="h.llo" title="Input should contain pattern 'h*llo'" required>
+
+    <label for="textInput3">Enter Text:</label>
+    <input type="text" id="textInput3" name="textInput" pattern="gr[aeiou]p" title="Input should contain the word 'gr*p'" required>
+
+
+    <!-- <label for="textInput">Enter Text:</label>
+    <input type="text" id="textInput" name="textInput" pattern="hello" title="Input should contain the word 'hello'" required>
+
+    <label for="textInput">Enter Text:</label>
+    <input type="text" id="textInput" name="textInput" pattern="hello" title="Input should contain the word 'hello'" required> -->
+    
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
